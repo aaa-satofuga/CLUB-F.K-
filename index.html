@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLUB F.K - フットボールクラブ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1 class="logo">CLUB F.K</h1>
+                <ul class="nav-menu">
+                    <li><a href="#about">クラブについて</a></li>
+                    <li><a href="#members">メンバー</a></li>
+                    <li><a href="#activities">活動内容</a></li>
+                    <li><a href="#contact">お問い合わせ</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h2>CLUB F.K へようこそ</h2>
+                <p>情熱と友情で繋がるフットボールクラブ</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>クラブについて</h2>
+                <div class="about-content">
+                    <p>CLUB F.Kは、サッカーを愛する仲間たちが集まるクラブです。</p>
+                    <p>私たちは定期的に練習や試合を行い、技術向上と親睦を深めています。</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number" id="memberCount">0</span>
+                            <span class="stat-label">メンバー</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" id="foundedYear">0</span>
+                            <span class="stat-label">設立年</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" id="activityCount">0</span>
+                            <span class="stat-label">年間活動回数</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="members">
+            <div class="container">
+                <h2>メンバー紹介</h2>
+                <div class="members-grid" id="membersGrid">
+                    <!-- メンバーカードがJavaScriptで動的に追加されます -->
+                </div>
+            </div>
+        </section>
+
+        <section id="activities">
+            <div class="container">
+                <h2>活動内容</h2>
+                <div class="activities-list">
+                    <div class="activity-card">
+                        <h3>定期練習</h3>
+                        <p>毎週土曜日・日曜日に練習を行っています</p>
+                    </div>
+                    <div class="activity-card">
+                        <h3>親善試合</h3>
+                        <p>他クラブとの交流試合を定期的に開催</p>
+                    </div>
+                    <div class="activity-card">
+                        <h3>イベント</h3>
+                        <p>BBQや合宿などの親睦イベントも実施</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>お問い合わせ</h2>
+                <div class="contact-content">
+                    <p>新規メンバー募集中！見学も大歓迎です。</p>
+                    <div class="contact-info">
+                        <p><strong>メール:</strong> <span id="email">info@club-fk.com</span></p>
+                        <p><strong>電話:</strong> <span id="phone">090-XXXX-XXXX</span></p>
+                        <p><strong>活動場所:</strong> <span id="location">東京都内各所のグラウンド</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="currentYear">2024</span> CLUB F.K All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
